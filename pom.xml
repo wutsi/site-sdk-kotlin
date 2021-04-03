@@ -11,7 +11,7 @@
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>site-sdk</name>
+  <name>site-sdk-kotlin</name>
 
   <properties>
     <jdk.version>11</jdk.version>
