@@ -4,5 +4,5 @@
 [![](https://img.shields.io/badge/maven-3.6-brightgreen.svg)](https://maven.apache.org/download.cgi)
 ![](https://img.shields.io/badge/language-kotlin-blue.svg)
 
-SDK of site API
+Kotlin SDK of [Site API](https://github.com/wutsi/site-server)
 

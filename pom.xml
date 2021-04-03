@@ -6,7 +6,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>site-sdk</artifactId>
+  <artifactId>site-sdk-kotlin</artifactId>
   <groupId>com.wutsi.site</groupId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
@@ -39,7 +39,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Maven Packages</name>
-      <url>https://maven.pkg.github.com/wutsi/site-sdk</url>
+      <url>https://maven.pkg.github.com/wutsi/site-sdk-kotlin</url>
     </repository>
   </distributionManagement>
 
