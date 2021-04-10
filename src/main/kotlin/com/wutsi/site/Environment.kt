@@ -1,6 +1,11 @@
 package com.wutsi.site
 
-enum class Environment(public val url: String) {
+import kotlin.String
+
+public enum class Environment(
+  public val url: String
+) {
+  SANDBOX("https://wutsi-site-test.herokuapp.com"),
   PRODUCTION("https://wutsi-site-prod.herokuapp.com"),
-  SANDBOX("https://wutsi-site-test.herokuapp.com")
+  ;
 }
