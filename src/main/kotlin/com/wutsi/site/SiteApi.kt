@@ -13,13 +13,13 @@ import kotlin.String
 import kotlin.Unit
 
 public interface SiteApi {
-  @RequestLine("GET /v1/site/{id}")
+  @RequestLine("GET /v1/sites/{id}")
   public fun `get`(@Param("id") id: Long): GetSiteResponse
 
-  @RequestLine("POST /v1/site/{id}")
+  @RequestLine("POST /v1/sites/{id}")
   public fun update(@Param("id") id: Long, request: UpdateSiteRequest): UpdateSiteResponse
 
-  @RequestLine("POST /v1/site/{id}/attributes/{urn}")
+  @RequestLine("POST /v1/sites/{id}/attributes/{urn}")
   public fun setAttribute(
     @Param("id") id: Long,
     @Param("urn") urn: String,
