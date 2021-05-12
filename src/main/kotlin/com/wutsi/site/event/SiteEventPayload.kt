@@ -1,5 +1,5 @@
 package com.wutsi.site.event
 
 data class SiteEventPayload(
-    val siteId: Long
+    val siteId: Long = -1
 )
