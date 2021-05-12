@@ -7,5 +7,6 @@ public data class CreateSiteRequest(
   public val domainName: String = "",
   public val displayName: String = "",
   public val language: String = "",
-  public val currency: String = ""
+  public val currency: String = "",
+  public val internationalCurrency: String = ""
 )

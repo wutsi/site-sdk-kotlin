@@ -7,5 +7,6 @@ public data class UpdateSiteRequest(
   public val domainName: String = "",
   public val displayName: String = "",
   public val language: String = "",
-  public val currency: String = ""
+  public val currency: String = "",
+  public val internationalCurrency: String = ""
 )
