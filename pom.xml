@@ -6,7 +6,7 @@
 
   <artifactId>site-sdk-kotlin</artifactId>
   <groupId>com.wutsi.site</groupId>
-  <version>1.8.12-SNAPSHOT</version>
+  <version>1.8.12</version>
   <packaging>jar</packaging>
 
   <name>site-sdk-kotlin</name>
@@ -54,7 +54,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/site-sdk-kotlin.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>site-sdk-kotlin-1.8.12</tag>
   </scm>
 
   <distributionManagement>
